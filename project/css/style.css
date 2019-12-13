@@ -1,0 +1,367 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/*start upper bar*/
+.upper_bar{
+    background-color: #002147; 
+    max-height: 170px;
+
+} 
+.upper_bar  input[type=text],.upper_bar  input[type=button]{
+    border-radius: 4px;
+    border: 1px solid #888;
+   padding-left: 3px;
+}
+.upper_bar input[type=button]{ 
+    color:  #002147;
+    background-color: #ffb606;
+    padding:4px 10px;
+    transition: all .5s ease-in-out;
+    font-size: 16px;
+    font-weight: bold;
+}
+.upper_bar input[type=button]:hover{
+color:#fff;
+border: 1px solid #ffb606 ;
+}
+/*end  upper bar*/
+
+/*start navbar */
+.navbar-light .navbar-nav .nav-link {
+    font-size: 19px;
+    text-transform: uppercase;
+    margin-left: 30px;
+    color:#002147; 
+    font-weight: bold; 
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    transition: all .5s ease-in-out;
+    color:#ffb606 ;
+}
+.navbar-light .navbar-nav .active .nav-link{
+    color:#ffb606;
+}
+
+/*end navbar */
+.carousel-indicators{
+    margin-left: 50px;
+}
+/*.carousel-item img{
+    height: 100%;
+}*/
+.slider  .carousel-caption{
+  margin-bottom: 120px; 
+  text-align: center; 
+}
+
+.carousel-caption{
+   
+    text-align: center;
+}
+.carousel-caption h5{
+    font-size: 36px;
+    font-weight: bold;
+    color:  #fff;
+}
+.carousel-caption h5 span{
+    color:#ffb606;
+    font-size: 66px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+.carousel-caption p{
+    font-size: 28px;
+    color:  #fff;
+
+}
+
+.carousel-indicators li{
+
+    width: 200px;
+    height:150px;
+    border-radius: 50%; 
+    margin-left:110px;
+    position: relative;
+    margin-bottom: -80px;
+             
+}
+.carousel-indicators img{
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    top: 0;
+    left: 0;     
+    opacity: 1;   
+    border-radius: 50%; 
+    border: 1px solid #ffb606; 
+   
+        -webkit-filter: contrast(200%);
+        -moz-filter: contrast(200%);
+        -o-filter: contrast(200%);
+        filter: contrast(200%);
+}
+
+/*start featured work section*/
+/* start feartures section*/
+.features {
+  padding-top: 200px;
+}
+.features i{
+    background-color: #ffb606;
+    color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.features h3{
+    color: #000;
+    font-size: 24px;
+}
+.features p{
+    color:#989898;
+    margin-bottom: 50px;
+}
+
+/*startabout section*/
+.about {
+ 
+    background: url("../img/Slider-4.jpg") no-repeat  center center fixed;
+    background-size: cover;
+    margin-top: 150px;
+    position: relative;
+   min-height: 750px;
+    text-align: center;
+}
+.about .overflow{
+    width: 100%;
+    height: 750px;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 0;
+    background-color: rgba(0,0, 0, .6)
+}
+.about h2 {
+    font-size: 46px;
+    font-weight: bold;
+   color: #fff;
+    margin-top: 50px;
+
+}
+.about .card {
+    margin-bottom:10px;
+    width:400px;
+    height: 425px;
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px 0px;
+    transition: .3s;
+    border-radius: 3px;
+   
+}
+
+.about .describtion-para{
+    line-height: 30px;
+    font-size: 16px;
+    font-weight:800;
+    max-width: 80%;
+    margin: 20px auto ;
+    color: #002147
+}
+.about img {
+   width: 200px;
+    border-radius: 50%;
+height: 200px;
+}
+.about img:hover {
+    border: 5px solid #ffb606;
+    position: relative;
+  -moz-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -o-transform: scale(1.1);
+ transform: scale(1.1);
+    transition: all .1s ease-in-out;
+}
+
+
+.about .text-muted {
+    color: #002147!important;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+}
+.about .card .card-text {
+    color: #787878;
+margin-bottom: 5px;
+text-align: center;
+line-height: 2;
+}
+.about .card .card-link{
+   color: #f5f3f0;
+  font-size:16px;
+  font-weight: bold;
+  background-color:#ffb606 ;
+  border-radius: 50px;
+  padding: 10px;
+
+}
+.about .card .card-link:hover{
+    color: #002147;
+    transition:all .5s ease-out;
+}
+/*end about work section*/
+
+
+/*start about page*/
+   
+.aboutus_page {
+    margin-top: 250px;
+    color: #888;
+}
+.aboutus_page .stu{
+margin-bottom: 50px;
+}
+.aboutus_page h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+   color: #ffb606 ;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+.aboutus_page .lead{
+    font-size: 20px;
+    color:#002147;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.aboutus_page img{
+   max-height: 400px;
+   opacity: .9;
+}
+.aboutus_page img:hover{
+    opacity: 1;
+}
+.aboutus_page span:hover  {
+ border-bottom: 2px solid #002147;
+}
+.aboutus_page li{
+   list-style: none;
+   font-size: 16px;
+   font-weight: bold;
+   color: #888;
+}
+.aboutus_page li::before {
+    color: #ffb606;
+    content: "\2022";
+  
+    font-weight: bold;
+    display: inline-block; 
+   font-size: 26px;
+   margin-right: 5px;
+  }
+/*end about page*/
+
+
+
+/* media for mobile xs*/
+@media  only screen and (max-width:414px) {
+    .slider .carousel-caption  {
+        display: none;
+    }
+ 
+}
+@media  only screen and (max-width:576px){
+    input[type=text]{
+        display: block;
+        width: 100%;
+    }
+    .btn1,.btn2{
+        margin-top:15px;
+    }
+    .carousel-indicators{
+        display: none;
+    }
+    .slider .carousel-inner{
+        justify-content: center;
+      
+    }
+    .slider .carousel-inner h5 span{
+        font-size:16px;
+    }
+    .slider .carousel-inner h5{
+    position: relative;
+        color: #fff;
+        font-size:16px;
+       
+       
+    }
+    .slider .carousel-inner p{
+        position: absolute;
+    }
+   
+   
+ }
+
+@media  only screen and (max-width:768px) {
+    .upper_bar .inp2{
+    margin-top: 15px;  
+
+  }
+  .upper_bar  .btn2{
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    .carousel-indicators{
+        display: none;
+    }
+    .slider .carousel-inner{
+        justify-content: center;
+      
+    }
+    .slider .carousel-inner h5 span{
+        font-size:26px;
+    }
+    .slider .carousel-inner h5{
+    
+        color: #fff;
+        font-size:26px;
+        top: 15px;
+        line-height: 1.5;
+    
+      text-align: center;
+       
+    }
+    .slider .carousel-inner p{
+        position: absolute;
+    }
+  
+    
+}
+@media  only screen and (max-width:991px) {
+    .about,.about .overflow {
+       min-height: 1100px;
+       width: 100%;
+      
+    }
+    .about .card{
+        margin:20px  auto
+    }
+    @media  only screen and (max-width:441px){
+        .about,.about .overflow {
+            min-height: 1200px;
+width: 441px;
+           
+         }
+        
+    }
+
+}
+
+
+
